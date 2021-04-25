@@ -19,7 +19,9 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatInputModule} from '@angular/material/input';
-import { LoginComponent } from './components/login/login.component';
+import {LoginComponent } from './components/login/login.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,6 +34,7 @@ import { LoginComponent } from './components/login/login.component';
     FooterComponent,
     LoginComponent
   ],
+  entryComponents: [LoginComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -47,7 +50,9 @@ import { LoginComponent } from './components/login/login.component';
     MatFormFieldModule,
     MatInputModule,
     MatCheckboxModule,
-    MatIconModule
+    MatIconModule,
+    MatDialogModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
