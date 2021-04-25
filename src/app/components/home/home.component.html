@@ -13,13 +13,17 @@
             <!--/.navbar-header-->
             <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#" class="scroll-top">Home</a></li>
-                    <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>
-                    <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>
-                    <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>
-                    <li><a href="#" class="scroll-link" data-id="contact-us">Contact Us</a></li>
+                        <div class="section-1" >
+                          <button mat-raised-button color="primary" class="scroll-top">Home</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <button mat-raised-button color="primary" class="scroll-link" data-id="about">Products</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <button mat-raised-button color="primary" class="scroll-link" data-id="portfolio">Portfolio</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <button mat-raised-button color="primary" class="scroll-link" data-id="blog">Blog</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                          <button mat-raised-button color="primary" class="scroll-link" data-id="contact-us">Contact Us</button>
+                        </div>
                 </ul>
+
             </div>
+            
             <!--/.navbar-collapse-->
         </nav>
         <!--/.navbar-->
@@ -35,7 +39,7 @@
             <h2><em>Udbhabona</em> <span> Software Solutions Pvt.Ltd.</span></h2>
             <section>
                 <div class="example-button-row">
-                  <button mat-raised-button color="primary" (click)="OpenDialog()">Register Here</button>
+                  <button mat-raised-button color="accent" (click)="OpenDialog()">Register Here</button>
                 </div>
             </section>
         </div>
